@@ -789,12 +789,12 @@ body{
 }
 
 .introperusahaan h1{
-    font-size:60px;
+    font-size:50px;
     color:#2B3627;
 }
 .introperusahaan p{
     width:90%;
-    font-size:36px;
+    font-size:30px;
     color:#727C6F;
 }
 .introperusahaan a{
@@ -933,7 +933,6 @@ body{
     padding:0 5%;
     width:100%;
     padding-bottom:2%;
-    padding-right:20px;
     grid-area:legal2;
 
 }
@@ -1159,6 +1158,7 @@ body{
     width:100%;
     box-sizing:border-box;
     background-color:#40513B;
+    padding-bottom:20px;
 
 }
 .ed h1{
@@ -1184,8 +1184,8 @@ body{
 .ed .lifoot{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    width:80%;
+    justify-content:space-evenly;
+    width:90%;
     
 }
 
