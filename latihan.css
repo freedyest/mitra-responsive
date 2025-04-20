@@ -1,0 +1,1208 @@
+/*=====header=====*/
+
+html{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+body{
+    background-color:#;
+    margin-top:75px;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    height:100%;
+    margin-bottom:0;
+    width:100%;
+    overflow-x: hidden;
+    }
+
+.projekmitra{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-areas:
+    "intro1 intro2"
+    "tentang1 tentang2"
+    "legal1 legal2"
+    "produk produk"
+    "ekosistem1 ekosistem2"
+    "visi misi"
+    "footer map"
+}
+
+.header{
+    background-color:#EDF1D6;
+    top:0;
+    left:0;
+    right:0;
+    position:fixed;
+    height:75px;
+    z-index:100;
+    display:flex;
+    box-sizing:border-box;
+    align-items:center;
+    padding:0px 20px;
+    justify-content:space-between;
+
+}
+.hdrkiri{
+    padding:20px 0;
+    font-size: 20px;
+    
+}
+.hdrkiri a,img{
+    vertical-align:middle;
+    margin:5px;
+}
+.hdrkiri a{
+    display:inline-block;
+    color:white;
+    background-color:#609966;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition:1s ease;
+}
+.hdrkiri a:hover{
+    background-color:#1A4624;
+    padding:10px 15px;
+    border-radius: 50px;
+    transform:scale(1.1);
+    text-decoration: none;
+}
+.hdrkiri a:active{
+    background-color:#000000;
+    padding:10px 15px;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.hdrkanan{
+    padding:20px 0;
+    font-size: 20px;
+}
+.hdrkanan a{
+    display:inline-block;
+    vertical-align:middle;
+    color:#40513B;
+    background-color:#9DC08B;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition:1s ease;
+}
+.hdrkanan a:hover{
+    background-color:#609966;
+    padding:10px 15px;
+    color:white;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.hdrkanan a:active{
+    background-color:#1A4624;
+    padding:10px 15px;
+    color:white;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+/*=====intro perusahaan=====*/
+
+.introperusahaan{
+    background-color:#EDF1D6;
+    width:100%;
+    grid-area:intro1;
+    box-sizing:border-box;
+    padding-left:20px;
+}
+
+.introperusahaan h1{
+    font-size:60px;
+    color:#2B3627;
+}
+.introperusahaan p{
+    width:90%;
+    font-size:36px;
+    color:#727C6F;
+}
+.introperusahaan a{
+    display:inline-block;
+    transition:1s ease;
+    color:white;
+    background-color:#609966;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:50px;
+    margin-bottom:40px;
+}
+.introperusahaan a:hover{
+    display:inline-block;
+    color:white;
+    background-color:#1A4624;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:50px;
+    transform: scale(1.2);
+
+}
+.gambarintro{
+    grid-area:intro2;
+    background-color:#EDF1D6;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    
+}
+
+.gambarintro img{
+    width: 46%;
+    height: 450px;
+    padding-top:80px;
+    padding-right:20px;
+    box-sizing:border-box;
+    transition:0.3s ease;
+
+}
+.gambarintro img:hover{
+    width: 46%;
+    height: 450px;
+    padding-top:80px;
+    padding-right:20px;
+    box-sizing:border-box;
+    transform:scale(1.05);
+
+}
+/*=====tentang perusahaan=====*/
+.tentangperusahaan1{
+    width:100%;
+    background-color:#40513B;
+    box-sizing:border-box;
+    grid-area:tentang1;
+    padding-left:20px;
+    height:100%;
+}
+.tentangperusahaan1 h2{
+    color:white;
+    font-size:48px;
+    width:90%;
+}
+.tentangperusahaan1 p{
+    color:#EDF1D6;
+    font-size:24px;
+    width:90%;
+}
+.subtentangperusahaan p{
+    background-color:#40513B;
+    color:white;
+    font-size:30px;
+    width:90%;
+    font-weight: bold;
+
+}
+.tentangperusahaan2{
+    grid-area:tentang2;
+    width:100%;
+    overflow:hidden;
+}
+.tentangperusahaan2 img{
+    height:100%;
+    width:100%;
+    transition:2s ease;
+    transform:scale(1.2,1.2);
+
+}
+.tentangperusahaan2 img:hover{
+    height:100%;
+    width:100%;
+    transform:scale(1.5,1.5);
+
+}
+/*=====legalitas perusahaan=====*/
+.legalkiri{
+    width:100%;
+    padding-left:20px;
+    background-color:#EDF1D6;
+    grid-area:legal1;
+    box-sizing: border-box;
+}
+.legalkiri2{
+    box-sizing: border-box
+}
+.legalkiri2 h2{
+    font-size:48px;
+    color:#2B3627;
+}
+
+.legalkiri2 p{
+    width:100%;
+    color:#727C6F;
+    font-size:24px
+}
+.katalogkiri{
+    width:100%;
+    margin-bottom:30px;
+    display:flex;
+    flex-direction:column ;
+}
+.katalogkiri2{
+    display:flex;
+    color:white;
+    background-color:#40513B;
+    margin-bottom:10px;
+    width:95%;
+    transition:0.5s ease;
+    justify-content:space-between;
+
+}
+
+.katalogkiri2:hover{
+    display:flex;
+    color:white;
+    background-color:#40513B;
+    margin-bottom:10px;
+    width:95%;
+    justify-content:space-between;
+    transform:scale(1.05,1.1);
+    
+}
+.katalogkiri2:hover p{
+    text-align:right;
+    padding:10px;
+    color:white;
+    font-size:20px;
+    
+}
+
+.katalogkiri2 h3{
+    text-align:left;
+    width:40%;
+    padding:10px;
+}
+.katalogkiri2 p{
+    text-align:right;
+    padding:10px;
+    color:#727C6F;
+    font-size:20px;
+    transition:0.5s;
+}
+.legalkanan{
+    background-color:#EDF1D6;
+    box-sizing: border-box;
+    width:100%;
+    padding-top:70px;
+    padding-bottom:2%;
+    padding-right:20px;
+    grid-area:legal2;
+
+}
+.katalogkanan2{
+    display:flex;
+    width:100%;
+    margin-bottom:10px;
+    background-color:#40513B;
+    color:white;
+    justify-content:space-between;
+    transition:0.5s;
+}
+.katalogkanan2:hover{
+    display:flex;
+    width:100%;
+    margin-bottom:10px;
+    background-color:#40513B;
+    color:white;
+    justify-content:space-between;
+    transform:scale(1.05,1.1);
+}
+.katalogkanan2:hover p{
+    text-align:right;
+    padding:10px;
+    color:white;
+    font-size:20px;
+}
+.katalogkanan2 h3{
+    text-align:left;
+    width:40%;
+    padding:10px;
+
+}
+.katalogkanan2 p{
+    text-align:right;
+    padding:10px;
+    color:#727C6F;
+    font-size:20px;
+}
+
+/*=====produk barang=====*/
+.produk{
+    padding:2%;
+    width:100%;
+    grid-area:produk;
+    display:flex;
+    flex-wrap:wrap; 
+}
+.kontainer{
+    background-color:#EDF1D6;
+    box-sizing: border-box;
+    width:30%;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    overflow:hidden;
+    transition:1s ease;
+}
+.kontainer:hover{
+    background-color:#EDF1D6;
+    box-sizing: border-box;
+    width:30%;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    overflow:hidden;
+    transform:scale(1.1);
+    border: 5px solid #609966;
+    position:relative;
+    z-index:2;
+
+}
+.kontainer h5{
+    color:#609966;
+    margin-left:20px;
+    margin-top:20px;
+    padding:5px 10px;
+    width:fit-content;
+   font-size:16px;
+   border-radius:30px;
+   border:2px solid #609966;
+}
+.kontainer p{
+    color:#40513B;
+    width:80%;
+    margin:20px;
+   font-size:24px;
+}
+
+.kontainer img{
+    transform:scale(1.1,1.1);
+    width:100%;
+    height:300px;
+    
+}
+
+/*=====merchant=====*/
+
+.ekosistem1{
+    background-color:#609966;
+    margin-left:35px;
+    margin-bottom:35px;
+    background-color:#40513B;
+    box-sizing:border-box;
+    width:90%;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    padding-top:20px;
+    padding-left:10px;
+    grid-area:ekosistem1;
+}
+
+
+.ekosistem1 h3{
+    color:white;
+    font-size:50px;
+}
+.ekosistem1 p{
+    color:#EDF1D6;
+    font-size:28px;
+}
+.buttonekosistem{
+    width:fit-content;
+}
+.ekosistem1 h6{
+    display:inline-block;
+    color:#40513B;
+    background-color:white;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+    transition:0.5s;
+
+}
+.ekosistem1 h6:hover{
+    display:inline-block;
+    color:#40513B;
+    transform:scale(1.05);
+    background-color:#EDF1D6;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.ekosistem1 h6:active{
+    display:inline-block;
+    color:white;
+    background-color:#609966;
+    border-radius:25px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.ekosistem2{
+    margin-right:30px;
+    width:95%;
+    box-sizing:border-box;
+    float:left;
+    grid-area:ekosistem2;
+}
+.ekosistem2 img{
+   width:96%;
+   height:90%;
+   transition:1s ease;
+}
+.ekosistem2 img:hover{
+    transform:scale(1.2);
+    width:96%;
+    height:90%;
+ }
+/*=====visi misi=====*/
+
+.visi1{
+    background-color:#EDF1D6;
+    width:100%;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    grid-area:visi;
+}
+    
+.visi2 h2{
+    font-size:48px;
+}
+.visi2 p{
+    width:90%;
+    font-size:24px;
+    color:#727C6F;
+}
+.kontainvisi{
+    box-sizing:border-box;
+    width:95%;
+    background-color:#40513B;
+    padding-top:5px;
+    padding-left:10px;
+    transition:0.5s;
+}
+.kontainvisi:hover{
+    box-sizing:border-box;
+    width:95%;
+    background-color:#40513B;
+    padding-top:5px;
+    padding-left:10px;
+    transform:scale(1.05);
+
+    
+}
+.kontainvisi:hover p{
+    width:90%;
+    color:white;
+    font-size:24px;
+}
+.kontainvisi h3{
+    width:85%;
+    color:white;
+    font-size:28px;
+
+}
+.kontainvisi p{
+    width:90%;
+    color:#727C6F;
+    font-size:24px;
+}
+
+.misi1{
+    grid-area:misi;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    background-color:#EDF1D6;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.kontainermisi1{
+    width:44%;
+    margin:2%;
+    background-color:#40513B;
+    padding-bottom:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+    transition:0.5s ease;
+}
+.kontainermisi1:hover{
+    transform:scale(1.1);
+    width:44%;
+    margin:2%;
+    background-color:#40513B;
+    padding-bottom:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+.kontainermisi1:hover p{
+    color:white;
+    font-size:22px;
+}
+.kontainermisi2{
+    width:92%;
+    margin:2%;
+    background-color:#40513B;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+    transition:0.5s;
+    margin-bottom:20px;
+}
+.kontainermisi2:hover{
+    transform:scale(1.1);
+    width:92%;
+    margin:2%;
+    background-color:#40513B;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+
+    margin-bottom:20px;
+}
+.kontainermisi2:hover p{
+    color:white;
+    font-size:22px;
+}
+
+.kontainermisi1 h3{
+    color:white;
+    font-size:28px;
+}
+.kontainermisi1 p{
+    color:#727C6F;
+    font-size:22px;
+}
+
+.kontainermisi2 h3{
+    color:white;
+    font-size:28px;
+
+}
+.kontainermisi2 p{
+    color:#727C6F;
+    font-size:22px;
+}
+
+/*===== footer =====*/
+
+.ed{
+    grid-area:footer;
+    background-color:#40513B;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    padding-left: 20px;
+    height:auto;
+    width:100%;
+    box-sizing:border-box;
+    background-color:#40513B;
+
+}
+.ed h1{
+    font-size:36px;
+}
+.subfoot{
+    color:#727C6F;
+    font-size:20px;
+}
+.ed p{
+    width:70%;
+    color:white;
+    font-size:20px;
+}
+.ed a{
+    width:70%;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+}
+.ed .lifoot{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:50%;
+}
+
+.map{
+    grid-area:map;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    background-color:#40513B;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .projekmitra {
+    overflow-x: hidden;
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr ;
+    grid-template-areas:
+    "intro1"
+    "intro2"
+    "tentang1" 
+    "tentang2"
+    "legal1"
+    "legal2"
+    "produk"
+    "ekosistem1" 
+    "ekosistem2"
+    "visi" 
+    "misi"
+    "map"
+    "footer" 
+    
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* CSS khusus untuk layar kecil seperti HP */
+    
+.header{
+    width:100%;
+    background-color:#EDF1D6;
+    top:0;
+    left:0;
+    right:0;
+    position:fixed;
+    height:75px;
+    z-index:100;
+    display:flex;
+    box-sizing:border-box;
+    align-items:center;
+    max-width: 100%;
+    justify-content:space-between;
+
+}
+.hdrkiri{
+    padding:20px 0;
+    font-size: 20px;
+    
+}
+.hdrkiri a,img{
+    vertical-align:middle;
+    margin:5px;
+}
+.hdrkiri a{
+    color:white;
+    background-color:#609966;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.hdrkiri a:hover{
+    background-color:#1A4624;
+    padding:10px 15px;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.hdrkiri a:active{
+    background-color:#000000;
+    padding:10px 15px;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.hdrkanan{
+    padding:20px 0;
+    font-size: 20px;
+}
+.hdrkanan a{
+    display:inline-block;
+    vertical-align:middle;
+    color:#40513B;
+    background-color:#9DC08B;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.hdrkanan a:hover{
+    background-color:#609966;
+    padding:10px 15px;
+    color:white;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.hdrkanan a:active{
+    background-color:#1A4624;
+    padding:10px 15px;
+    color:white;
+    border-radius: 50px;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+  }
+
+  @media (max-width: 690px) {
+.hdrkiri a{
+    display:none;
+    color:white;
+    background-color:#609966;
+    padding:10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+  
+}
+
+@media (max-width: 768px) {
+
+/*=====intro perusahaan=====*/
+
+.introperusahaan{
+    background-color:#EDF1D6;
+    width:100%;
+    grid-area:intro1;
+    box-sizing:border-box;
+    padding:0 5%;
+
+}
+
+.introperusahaan h1{
+    font-size:60px;
+    color:#2B3627;
+}
+.introperusahaan p{
+    width:90%;
+    font-size:36px;
+    color:#727C6F;
+}
+.introperusahaan a{
+    display:inline-block;
+    color:white;
+    background-color:#609966;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:50px;
+    margin-bottom:40px;
+}
+.introperusahaan a:hover{
+    display:inline-block;
+    color:white;
+    background-color:#1A4624;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:50px;
+    transform: scale(1.2);
+
+}
+.gambarintro{
+    padding:0 5%;
+    grid-area:intro2;
+    background-color:#EDF1D6;
+    width:90%;
+    position:relative;
+   
+
+
+}
+.gambarintro img{
+    
+    width: 100%;
+    height: 45%;
+    box-sizing:border-box;
+
+}
+
+/*=====tentang perusahaan=====*/
+.tentangperusahaan1{
+
+    width:100%;
+    background-color:#40513B;
+    box-sizing:border-box;
+    grid-area:tentang1;
+    padding:0 5%;
+    height:100%;
+}
+.tentangperusahaan1 h2{
+    color:white;
+    font-size:48px;
+    width:90%;
+}
+.tentangperusahaan1 p{
+    color:#EDF1D6;
+    font-size:24px;
+    width:90%;
+}
+.subtentangperusahaan p{
+    background-color:#40513B;
+    color:white;
+    font-size:30px;
+    width:90%;
+    font-weight: bold;
+
+}
+.tentangperusahaan2{
+    grid-area:tentang2;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow:hidden;
+
+}
+.tentangperusahaan2 img{
+    height:100%;
+    width:100%;
+    transform:scale(1.5,1.5);
+    box-sizing:border-box;
+}
+
+/*=====legalitas perusahaan=====*/
+.legalkiri{
+    width:100%;
+    height:100%;
+    padding:0 5%;
+    background-color:#EDF1D6;
+    grid-area:legal1;
+    box-sizing: border-box;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+.legalkiri2{
+    box-sizing: border-box
+}
+.legalkiri2 h2{
+    font-size:48px;
+    color:#2B3627;
+}
+
+.legalkiri2 p{
+    width:100%;
+    color:#727C6F;
+    font-size:24px
+}
+.katalogkiri{
+    width:100%;
+    display:flex;
+    flex-direction:column ;
+    margin-bottom:0;
+}
+.katalogkiri2{
+    display:flex;
+    color:white;
+    background-color:#40513B;
+    margin-bottom:10px;
+    width:100%;
+    justify-content:space-between;
+}
+.katalogkiri2 h3{
+    text-align:left;
+    width:40%;
+    padding:10px;
+}
+.katalogkiri2 p{
+    text-align:right;
+    padding:10px;
+    color:#727C6F;
+    font-size:20px;
+}
+
+.legalkanan{
+    background-color:#EDF1D6;
+    box-sizing: border-box;
+    padding:0 5%;
+    width:100%;
+    padding-bottom:2%;
+    padding-right:20px;
+    grid-area:legal2;
+
+}
+.katalogkanan2{
+    display:flex;
+    width:100%;
+    margin-bottom:10px;
+    background-color:#40513B;
+    color:white;
+    justify-content:space-between;
+}
+.katalogkanan2 h3{
+    text-align:left;
+    width:40%;
+    padding:10px;
+
+}
+.katalogkanan2 p{
+    text-align:right;
+    padding:10px;
+    color:#727C6F;
+    font-size:20px;
+}
+
+/*=====produk barang=====*/
+.produk{
+    padding:2%;
+    width:100%;
+    grid-area:produk;
+    display:flex;
+    flex-wrap:wrap; 
+}
+.kontainer{
+    background-color:#EDF1D6;
+    box-sizing: border-box;
+    width:90%;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.kontainer h5{
+    color:#609966;
+    margin-left:20px;
+    margin-top:20px;
+    padding:5px 10px;
+    width:fit-content;
+   font-size:16px;
+   border-radius:30px;
+   border:2px solid #609966;
+}
+.kontainer p{
+    color:#40513B;
+    width:80%;
+    margin:20px;
+
+   font-size:24px;
+}
+
+.kontainer img{
+    margin:0;
+    width:100%;
+    height:300px;
+    overflow:hidden;
+}
+
+/*=====merchant=====*/
+
+.ekosistem1{
+    padding:0 5%;
+    background-color:#40513B;
+    box-sizing:border-box;
+    width:90%;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    grid-area:ekosistem1;
+    margin:5%;
+}
+.ekosistem1 h3{
+    color:white;
+    font-size:50px;
+}
+.ekosistem1 p{
+    color:#EDF1D6;
+    font-size:28px;
+}
+.buttonekosistem{
+    width:fit-content;
+}
+.ekosistem1 h6{
+    display:inline-block;
+    color:#40513B;
+    background-color:white;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+
+}
+.ekosistem1 h6:hover{
+    display:inline-block;
+    color:#40513B;
+    transform:scale(1.05);
+    background-color:#EDF1D6;
+    border-radius:30px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.ekosistem1 h6:active{
+    display:inline-block;
+    color:white;
+    background-color:#609966;
+    border-radius:25px;
+    padding:10px 15px;
+    font-size:16px;
+}
+.ekosistem2{
+    margin:0 5%;
+    margin-bottom:10%;
+    width:90%;
+    box-sizing:border-box;
+    grid-area:ekosistem2;
+}
+.ekosistem2 img{
+   width:96%;
+   height:100%;
+}
+
+/*=====visi misi=====*/
+
+.visi1{
+    background-color:#EDF1D6;
+    width:100%;
+    padding:0 5%;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+  
+    grid-area:visi;
+}
+    
+.visi2 h2{
+    font-size:48px;
+}
+.visi2 p{
+    width:90%;
+    font-size:24px;
+    color:#727C6F;
+}
+.kontainvisi{
+    box-sizing:border-box;
+    width:100%;
+    background-color:#40513B;
+    padding:3%;
+
+}
+
+.kontainvisi h3{
+    width:100%;
+    color:white;
+    font-size:28px;
+
+}
+.kontainvisi p{
+    width:100%;
+    color:#727C6F;
+    font-size:24px;
+}
+
+.misi1{
+    grid-area:misi;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0 5%;
+    width:90%;
+    background-color:#EDF1D6;
+    padding-bottom:20px;
+}
+.kontainermisi1{
+    width:100%;
+    padding:3%;
+    background-color:#40513B;
+    margin:5% 0;
+    box-sizing:border-box;
+}
+.kontainermisi2{
+    width:100%;
+    padding:3%;
+    background-color:#40513B;
+    margin:5% 0;
+    box-sizing:border-box;
+}
+
+.kontainermisi1 h3{
+    color:white;
+    font-size:28px;
+}
+.kontainermisi1 p{
+    color:#727C6F;
+    font-size:22px;
+}
+
+.kontainermisi2 h3{
+    color:white;
+    font-size:28px;
+
+}
+.kontainermisi2 p{
+    color:#727C6F;
+    font-size:22px;
+}
+
+/*===== footer =====*/
+
+.ed{
+    grid-area:footer;
+    background-color:#40513B;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    padding-left: 20px;
+    height:auto;
+    width:100%;
+    box-sizing:border-box;
+    background-color:#40513B;
+
+}
+.ed h1{
+    font-size:36px;
+}
+.subfoot{
+    color:#727C6F;
+    font-size:20px;
+}
+.ed p{
+    width:70%;
+    color:white;
+    font-size:20px;
+}
+.ed a{
+    width:70%;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+
+}
+.ed .lifoot{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:80%;
+    
+}
+
+.map{
+    grid-area:map;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    background-color:#40513B;
+}
+.map iframe{
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: 0;
+}
+
+  }
